@@ -13,7 +13,7 @@ function ProductPage() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`https://api.example.com/products/${id}`); // Replace with your API endpoint
+        const response = await axios.get(`https://github.com/HaykInanc/telran_project_backend`); 
         setProduct(response.data); // Set the product data
       } catch (err) {
         setError(err.message); // Set error message if the request fails
